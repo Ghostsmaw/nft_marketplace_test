@@ -19,24 +19,25 @@ NOTE
 ### Prerequisites
 
 **Node version 14.x**
+
 **OpenSea API key**
 
-### Create an account with opensea
+### 1. Create an account with opensea
 
-### Navigate to the developers section and create an API key
+### 2. Navigate to the developers section and create an API key
 
-### Download the app from the repo 
+### 3. Download the app from the repo 
 
-### Extract the zip project into your code editor and then run the next command
+### 4. Extract the zip project into your code editor and then run the next command
 
-### Install packages
+### 5. Install packages
 
 ```shell
 npm i
 ```
-### Use your Opensea API key in the .env file
+### 6. Use your Opensea API key in the .env file
 
-### Start the app
+### 7. Start the app
 
 ```shell
 npm run start
