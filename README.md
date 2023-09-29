@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+A basic react app that fetches NFT data from an endpoint which in this case is openseaAPI. Take-home assignment..!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features:
 
-## Available Scripts
+- Built a basic frontend view which is also responsive on mobile devices
+- Used React-Router
+- Used Axios
+- Used React Hooks - useState, useEffect
+- Implemented pagination for product list (5 products per page)
+- Created a filter sidebar
 
-In the project directory, you can run:
+NOTE
 
-### `npm start`
+- There is no endpoint for fetching collections made available, but I was able to populate list of categories using a dummy data
+- Openers api does not return prices and ratings of assets
+- Implemented the code for sorting 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+**Node version 14.x**
+**OpenSea API key**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Create an account with opensea
 
-### `npm run build`
+### Navigate to the developers section and create an API key
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Download the app from the repo 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Extract the zip project into your code editor and then run the next command
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Install packages
 
-### `npm run eject`
+```shell
+npm i
+```
+### Use your Opensea API key in the .env file
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Start the app
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```shell
+npm run start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Available commands
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Running commands with npm `npm run [command]`
