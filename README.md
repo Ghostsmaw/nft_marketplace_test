@@ -1,4 +1,4 @@
-A basic react app that fetches NFT data from an endpoint which in this case is openseaAPI. Take-home assignment..!
+A basic react app that fetches NFT data from an endpoint which in this case is openseaAPI. Take-home assignment..! https://nft-marketplace-psi-navy.vercel.app/
 
 Features:
 
@@ -8,12 +8,14 @@ Features:
 - Used React Hooks - useState, useEffect
 - Implemented pagination for product list (5 products per page)
 - Created a filter sidebar
+- Handled different errors
+- Implemented search functionality
+- Created a details page
 
 NOTE
 
-- There is no endpoint for fetching collections made available, but I was able to populate list of categories using a dummy data
-- Openers api does not return prices and ratings of assets
-- Implemented the code for sorting 
+- The opensea api is limited as when fetching for assets under collections, it doesn't return the price and ratings.
+- But I still went ahead to implement the code to handle the sorting, categories, and filters using dummy data.
 
 
 ### Prerequisites
